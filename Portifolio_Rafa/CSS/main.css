@@ -1,7 +1,12 @@
+
 body {
+    background-image: url('../img/img-fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     background-color:#111111;
 }
-
+/* Apresentacao */
 .conteudo{
     color: white;
 }
@@ -13,9 +18,7 @@ body {
     color: white;
 }
 
-
-
-
+/* Apresentacao tela pequena */
 .hidden-small {
     display: block;
 }
@@ -25,3 +28,27 @@ body {
         display: none; 
     }
 }
+
+/*card sobre  */
+.card {
+    margin-top: 80px;
+    border: none;
+  }
+
+.icons .btn {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    background-color: #1F1F1F;
+    border-color: #1F1F1F;
+}
+
+.icons .btn i {
+    color: #00BFFF; 
+}
+
+.icons .btn:hover i {
+    color: white;
+}
+
+
+
